@@ -11,22 +11,40 @@ $light-border-color: #dcdcdc;
 $light-table-color: #dcdcdc;
 
 /* Dark theme colors */
-$dark-background: #232425;
+$dark-background: #181921;
 $dark-background-secondary: #3b3d42;
-$dark-background-header: #1b1c1d;
-$dark-color: #a9a9b3;
+$dark-background-header: #1d2021;
+$dark-color: #ebdbb2;
 $dark-color-variant: white;
 $dark-color-secondary: #b3b3bd;
-$dark-border-color: #4e4e57;
+$dark-border-color: #fabd2f;
 $dark-table-color: #4e4e57;
+
+/* Popping and Locking colors */
+$black: #1d2021;
+$red: #cc241d;
+$green: #98971a;
+$yellow: #d79921;
+$blue: #458588;
+$magenta: #b16286;
+$cyan: #689d6a;
+$white: #a89984;
+$bright-black: #928374;
+$bright-red: #f42c3e;
+$bright-green: #b8bb26;
+$bright-yellow: #fabd2f;
+$bright-blue: #99c6ca;
+$bright-magenta: #d3869b;
+$bright-cyan: #7ec16e;
+$bright-white: #ebdbb2;
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
 
 /* Variables for js, must be the same as these in @custom-media queries */
 :root {
-  --phoneWidth: (max-width: 684px);
-  --tabletWidth: (max-width: 900px);
+    --phoneWidth: (max-width: 684px);
+    --tabletWidth: (max-width: 900px);
 }
 
 /* Content */

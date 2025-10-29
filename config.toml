@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   #
   description = "ADHD fueled random open source engineering"
   keywords = "open-source, nixos, nix, linux, python, engineering"
-  images = [""]
+  images = ["./images/randoneering_logo_only.jpg"]
 
   # Home subtitle of the index page.
   #
@@ -130,12 +130,12 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/randoneering/"
+    logoText     = "$ cd ~/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    logoCursorColor    = "#d79921"
+    logoCursorColor    = "#fabd2f"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     #logoCursorAnimate  = "2s"
     # Append the current url pathname to logoText
@@ -146,10 +146,10 @@ disableHugoGeneratorInject = false
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   # Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
-  #   path     = "./images/randoneering_logo_400by400.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "200px"
+  [params.portrait]
+    path     = "./images/randoneering_logo_400by400.jpg"
+    alt      = "Portrait"
+    maxWidth = "175px"
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   # Addon: Commento
